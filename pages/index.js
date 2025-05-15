@@ -109,10 +109,10 @@ export default function Home() {
         >
           WHITEPAPER
         </a>
-        <button onClick={() => open()} className="bg-white bg-opacity-20 text-xs md:text-sm font-medium tracking-wider py-2 px-3 md:px-4 rounded-full mr-4 hover:bg-opacity-30 transition-all">
+        <button onClick={() => open()} className="bg-white bg-opacity-20 text-xs md:text-sm font-medium tracking-wider py-2 px-1 md:px-4 rounded-full mr-4 hover:bg-opacity-30 transition-all">
           CONNECT WALLET
         </button>
-        <button onClick={() => open()} className="p-2 bg-white bg-opacity-20 rounded-full hover:bg-opacity-30 transition-all">
+        {/* <button onClick={() => open()} className="p-2 bg-white bg-opacity-20 rounded-full hover:bg-opacity-30 transition-all">
           <svg
             width={20}
             height={20}
@@ -124,7 +124,7 @@ export default function Home() {
             <rect x={4} y={11} width={16} height={2} rx={1} fill="white" />
             <rect x={4} y={17} width={16} height={2} rx={1} fill="white" />
           </svg>
-        </button>
+        </button> */}
       </div>
     </header>
     {/* Main Content */}
